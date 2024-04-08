@@ -20,7 +20,7 @@ const (
 func (db *DBType) Set(s string) error {
 	*db = DBType(s)
 	if *db == "" {
-		*db = DBTypePostgresql
+		*db = DBTypeSQLite
 	}
 	if !SupportedDbTypes[*db] {
 		return fmt.Errorf("database type %q not supported, must be one of: %v",

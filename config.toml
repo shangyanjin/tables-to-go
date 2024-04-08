@@ -1,0 +1,21 @@
+[server]
+public = "public"
+domain = "http://localhost"
+session_secret = "session-secret-phrase"
+signup_enabled = true
+port = 80
+
+[database]
+host = "127.0.0.1"
+port = 3306
+db = "aipress"
+user = "root"
+password = "root"
+type="sqlite3"
+
+[smtp]
+from = "your@email.com"
+smtp = "smtp.email.com"
+port = 465
+user = "your@email.com"
+password = "email_password"

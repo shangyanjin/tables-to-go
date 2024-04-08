@@ -71,6 +71,11 @@ pointer types
 
 ## Examples
 
+#sqlite
+tables-to-go.exe  -t sqlite3 -d aipress.db -of output
+
+#PostgreSQL
+
 Assuming you have the following table definition (PostgreSQL):
 
 ```sql
